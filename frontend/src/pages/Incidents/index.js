@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
-
+import { Link, useHistory } from 'react-router-dom';
 import api from '../../services/api';
 
-import { Link, useHistory } from 'react-router-dom';
-
-import logoImg from '../../assets/logo.svg';
 import { FiArrowLeft } from 'react-icons/fi';
+import logoImg from '../../assets/logo.svg';
 import './styles.css';
 
 export default function Incidents() {
